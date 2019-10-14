@@ -1,36 +1,136 @@
 @charset "utf-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
-body, input, textarea, select, button, table { font-size:14px; line-height:1.25em; font-family:'나눔고딕', NanumGothic, Helvetica, AppleGothic, Sans-serif, ngwoff, ngeot, '굴림', gulrem; }
-html, body { height: 100%; padding:0; margin:0; }
-img, fieldset { border:0 }
-ul, ol { list-style:none }
-em, address { font-style:normal }
-a { text-decoration:none }
-a:hover, a:active, a:focus { text-decoration:underline }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body,
+input,
+textarea,
+select,
+button,
+table {
+  font-size: 14px;
+  line-height: 1.25em;
+  font-family: "나눔고딕", NanumGothic, Helvetica, AppleGothic, Sans-serif,
+    ngwoff, ngeot, "굴림", gulrem;
+}
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+img,
+fieldset {
+  border: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+em,
+address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
 
 header {
-    position: relative;
-    left: 20%;
-    border: 1px solid black;
-    padding: 50px;
-    text-align: center;
-    width: 50%;
-    display: inline-block;
+  position: relative;
+  left: 20%;
+  border: 1px solid black;
+  padding: 50px;
+  text-align: center;
+  width: 50%;
+  display: inline-block;
 }
 
 #logo {
-    width: 10%;
-    border: 1px solid black;
+  width: 10%;
+  border: 1px solid black;
 }
 
 #login {
-    width: 10%;
-    border: 1px solid black;
-    display: inline-block;
-    position: absolute;
-    right: 0;
+  width: 10%;
+  border: 1px solid black;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+#middle {
+  height: 40%;
+}
+
+#hotdeal {
+  height: 40%;
 }
 
 article {
-    
+  width: 33%;
+  height: 100%;
+  display: inline-block;
 }
