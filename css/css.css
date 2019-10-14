@@ -110,11 +110,15 @@ header {
 
 #logo {
   width: 10%;
+  height: 10%;
   border: 1px solid black;
+  display: inline-block;
+  position: absolute;
 }
 
 #login {
   width: 10%;
+  height: 10%;
   border: 1px solid black;
   display: inline-block;
   position: absolute;
@@ -133,4 +137,5 @@ article {
   width: 33%;
   height: 100%;
   display: inline-block;
+  cursor: pointer;
 }
